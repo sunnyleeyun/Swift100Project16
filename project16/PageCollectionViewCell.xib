@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="258" height="107"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-wZ-VeV">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-wZ-VeV">
                         <rect key="frame" x="0.0" y="0.0" width="258" height="107"/>
                     </imageView>
                 </subviews>
@@ -35,7 +35,4 @@
             <point key="canvasLocation" x="138" y="82.5"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="welcome" width="296" height="170"/>
-    </resources>
 </document>

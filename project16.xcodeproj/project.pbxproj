@@ -32,9 +32,10 @@
 		043E38EB1FBADAB000ED03B1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E38D81FBADAB000ED03B1 /* UIViewExtension.swift */; };
 		043E38EE1FBADF8900ED03B1 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E38EC1FBADF8900ED03B1 /* PageCollectionViewCell.swift */; };
 		043E38EF1FBADF8900ED03B1 /* PageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E38ED1FBADF8900ED03B1 /* PageCollectionViewCell.xib */; };
-		043E38F61FBADFA500ED03B1 /* IconsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E38F41FBADFA400ED03B1 /* IconsCollectionViewCell.swift */; };
 		043E38FA1FBAE0B000ED03B1 /* RunningCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E38F81FBAE0B000ED03B1 /* RunningCollectionViewCell.swift */; };
 		043E38FB1FBAE0B000ED03B1 /* RunningCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E38F91FBAE0B000ED03B1 /* RunningCollectionViewCell.xib */; };
+		04A342AA1FBBED04002B3A98 /* IconsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A342A81FBBED04002B3A98 /* IconsCollectionViewCell.swift */; };
+		04A342AB1FBBED04002B3A98 /* IconsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A342A91FBBED04002B3A98 /* IconsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,10 +66,10 @@
 		043E38D81FBADAB000ED03B1 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		043E38EC1FBADF8900ED03B1 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
 		043E38ED1FBADF8900ED03B1 /* PageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageCollectionViewCell.xib; sourceTree = "<group>"; };
-		043E38F41FBADFA400ED03B1 /* IconsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsCollectionViewCell.swift; sourceTree = "<group>"; };
-		043E38F51FBADFA400ED03B1 /* IconsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconsCollectionViewCell.xib; sourceTree = "<group>"; };
 		043E38F81FBAE0B000ED03B1 /* RunningCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningCollectionViewCell.swift; sourceTree = "<group>"; };
 		043E38F91FBAE0B000ED03B1 /* RunningCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunningCollectionViewCell.xib; sourceTree = "<group>"; };
+		04A342A81FBBED04002B3A98 /* IconsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A342A91FBBED04002B3A98 /* IconsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +109,8 @@
 				043E38ED1FBADF8900ED03B1 /* PageCollectionViewCell.xib */,
 				043E38F81FBAE0B000ED03B1 /* RunningCollectionViewCell.swift */,
 				043E38F91FBAE0B000ED03B1 /* RunningCollectionViewCell.xib */,
-				043E38F41FBADFA400ED03B1 /* IconsCollectionViewCell.swift */,
-				043E38F51FBADFA400ED03B1 /* IconsCollectionViewCell.xib */,
+				04A342A81FBBED04002B3A98 /* IconsCollectionViewCell.swift */,
+				04A342A91FBBED04002B3A98 /* IconsCollectionViewCell.xib */,
 				043E38671FBACE6F00ED03B1 /* Assets.xcassets */,
 				043E38691FBACE6F00ED03B1 /* LaunchScreen.storyboard */,
 				043E386C1FBACE6F00ED03B1 /* Info.plist */,
@@ -206,6 +207,7 @@
 				043E386B1FBACE6F00ED03B1 /* LaunchScreen.storyboard in Resources */,
 				043E38EF1FBADF8900ED03B1 /* PageCollectionViewCell.xib in Resources */,
 				043E38FB1FBAE0B000ED03B1 /* RunningCollectionViewCell.xib in Resources */,
+				04A342AB1FBBED04002B3A98 /* IconsCollectionViewCell.xib in Resources */,
 				043E38681FBACE6F00ED03B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +238,7 @@
 				043E38E91FBADAB000ED03B1 /* UITableViewExtensios.swift in Sources */,
 				043E38DE1FBADAB000ED03B1 /* NSObejctExtension.swift in Sources */,
 				043E38EE1FBADF8900ED03B1 /* PageCollectionViewCell.swift in Sources */,
-				043E38F61FBADFA500ED03B1 /* IconsCollectionViewCell.swift in Sources */,
+				04A342AA1FBBED04002B3A98 /* IconsCollectionViewCell.swift in Sources */,
 				043E38E41FBADAB000ED03B1 /* UIApplicationExtension.swift in Sources */,
 				043E38EB1FBADAB000ED03B1 /* UIViewExtension.swift in Sources */,
 				043E38E81FBADAB000ED03B1 /* UILabelExtension.swift in Sources */,

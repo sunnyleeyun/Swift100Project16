@@ -102,7 +102,7 @@ extension ViewController: UICollectionViewDataSource {
   public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     switch section{
     case VCSection.pag.rawValue:
-      return 1
+      return 3
     case VCSection.run.rawValue:
       return 1
     case VCSection.ico.rawValue:
@@ -120,7 +120,6 @@ extension ViewController: UICollectionViewDataSource {
       return cell
     case VCSection.ico.rawValue:
       let cell = collectionView.dequeueReusableCell(with: IconsCollectionViewCell.self, for: indexPath)
-      cell.backgroundColor = UIColor.randomColor()
       return cell
     default: fatalError()
     }
