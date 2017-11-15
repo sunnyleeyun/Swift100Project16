@@ -120,6 +120,7 @@ extension ViewController: UICollectionViewDataSource {
       return cell
     case VCSection.ico.rawValue:
       let cell = collectionView.dequeueReusableCell(with: IconsCollectionViewCell.self, for: indexPath)
+      cell.backgroundColor = UIColor.randomColor()
       return cell
     default: fatalError()
     }
