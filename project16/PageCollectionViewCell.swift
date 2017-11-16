@@ -12,7 +12,7 @@ public class PageCollectionViewCell: UICollectionViewCell {
   
   public override func awakeFromNib() {
     super.awakeFromNib()
-    
+    backgroundColor = UIColor.blue
   }
   
 }

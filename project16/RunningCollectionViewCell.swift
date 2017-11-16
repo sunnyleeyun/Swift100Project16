@@ -10,6 +10,7 @@ import UIKit
 
 class RunningCollectionViewCell: UICollectionViewCell {
   
+  
   override func awakeFromNib() {
     super.awakeFromNib()
     backgroundColor = UIColor(hexString: "#e8e8e8")

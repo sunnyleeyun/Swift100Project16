@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 public extension UIViewController {
     
@@ -9,13 +10,16 @@ public extension UIViewController {
 	///   - viewControllerToPresent: a view controller to present.
 	///   - animated: determine whetehr present it with animation.
 	///   - completion: a completion call back, default is nil.
-	public func asyncPresent(_ viewControllerToPresent: UIViewController?, animated: Bool, completion: (() -> Void)? = nil) {
+	
+  /*
+  public func asyncPresent(_ viewControllerToPresent: UIViewController?, animated: Bool, completion: (() -> Void)? = nil) {
 		Queue.main {
 			if let viewControllerToPresent = viewControllerToPresent {
 				self.present(viewControllerToPresent, animated: animated, completion: completion)
 			}
 		}
 	}
+ */
 	
   /// Async dismiss a view controller.
   /// Will be executed in main thread.
@@ -23,7 +27,9 @@ public extension UIViewController {
 	/// - Parameters:
 	///   - animated: determine whetehr dismiss it with animation.
 	///   - completion: a completion call back, default is nil.
-	public func asyncDismiss(_ animated: Bool, completion: (() -> Void)? = nil) {
+	
+  /*
+  public func asyncDismiss(_ animated: Bool, completion: (() -> Void)? = nil) {
 		Queue.main {
 			self.dismiss(animated: animated, completion: {
         // after dismiss, set transitioning delegate to nil to avoid crash.
@@ -32,6 +38,7 @@ public extension UIViewController {
 			})
 		}
 	}
+ */
 	
 	/// Hide keyboard showing on view controller
 	public func hideKeyboard() {
@@ -44,6 +51,8 @@ public extension UIViewController {
   /// - Parameters:
   ///   - animated: dismiss with animation.
   ///   - completion: completion call back, default is nil.
+ 
+  /*
   public func dismissModalStackAndReturnToRoot(animated: Bool, completion: (() -> Void)? = nil) {
     var vc = self.presentingViewController
     // find the view controller that is presenting current view controller.
@@ -56,6 +65,8 @@ public extension UIViewController {
       completion?()
     }
   }
+ 
+ */
     
   /// Dismiss modal stack.
   /// **Caution**: Will dismiss all view controllers that are presented in modal style.
@@ -63,6 +74,8 @@ public extension UIViewController {
   /// - Parameters:
   ///   - animated: dismiss with animation.
   ///   - completion: completion call back, default is nil.
+  
+  /*
   public func dismissModalStack(animated: Bool, completion: (() -> Void)? = nil) {
     var vc = self.presentedViewController
     // find the view controller that current view controller had presented.
@@ -74,5 +87,6 @@ public extension UIViewController {
       completion?()
     }
   }
+ */
     
 }

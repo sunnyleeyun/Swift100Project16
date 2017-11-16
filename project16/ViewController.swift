@@ -48,9 +48,14 @@ public class ViewController: UIViewController {
   
   private func configureRootCollectionView() {
     rootCollectionViewFlowLayout = UICollectionViewFlowLayout()
+    
+    //rootCollectionViewFlowLayout.scrollDirection = .horizontal
+    //rootCollectionViewFlowLayout.scrollDirection = .vertical
+
     rootCollectionViewFlowLayout.itemSize = CGSize(width: view.bounds.width, height: 100)
     rootCollectionViewFlowLayout.minimumLineSpacing = seperatorLineWidth
     rootCollectionViewFlowLayout.minimumInteritemSpacing = seperatorLineWidth
+
     rootCollectionView = UICollectionView(frame: view.bounds,
                                           collectionViewLayout: rootCollectionViewFlowLayout)
     rootCollectionView.backgroundColor = .clear
@@ -102,11 +107,11 @@ extension ViewController: UICollectionViewDataSource {
   public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     switch section{
     case VCSection.pag.rawValue:
-      return 3
+      return 1
     case VCSection.run.rawValue:
       return 1
     case VCSection.ico.rawValue:
-      return 50
+      return 100
     default: fatalError()
     }
   }

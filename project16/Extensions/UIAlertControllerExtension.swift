@@ -25,8 +25,8 @@ extension UIAlertController {
     return self
   }
 
-  func presnet(completion: ((Void) -> Void)? = nil) {
+  /*func presnet(completion: ((Void) -> Void)? = nil) {
     UIApplication.shared.topViewController?.asyncPresent(self, animated: true, completion: completion)
-  }
+  }*/
     
 }
